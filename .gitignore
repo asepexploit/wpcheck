@@ -11,4 +11,7 @@ data/*
 # output audit CSV -- hasil jalan lokal, bukan kode
 audit_*.csv
 
+# crash forensic logs -- data runtime pribadi (bisa memuat URL target), bukan kode
+logs/
+
 *.zip
