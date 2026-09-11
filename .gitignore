@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# kredensial pribadi (token lisensi, bucket API key, Telegram token, dll) -- jangan pernah commit
+.env
+
+# status/data hasil jalan wp-check -- bukan kode, data runtime pribadi (proof lisensi, dll)
+data/*
+!data/.gitkeep
+
+# output audit CSV -- hasil jalan lokal, bukan kode
+audit_*.csv
+
+*.zip
